@@ -68,6 +68,7 @@
   },
   "scripts": {
     "prepublish": "gulp dist",
+    "prepare": "gulp dist",
     "start": "semistandard --fix"
   },
   "main": "./dist/cjs.js",
